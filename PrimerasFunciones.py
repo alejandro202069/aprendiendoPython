@@ -1,13 +1,13 @@
 
 
-def mensaje():
+def suma(num1,num2):
+	
+	resultado=num1+num2
 
-        print("estamos aprendiendo ya")
-        print("estamos aprendiendo con chocolate")
-
-
-mensaje()
+	return resultado
 
 
-print("ejecutando")
-mensaje()
+
+print(suma(7,5))
+
+
